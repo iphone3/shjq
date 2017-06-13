@@ -1,0 +1,370 @@
+/* 样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 13px;
+	font-family: "微软雅黑",'宋体';
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul,li{
+	list-style: none;
+}
+img{
+	display: block;
+	border: 0;
+}
+i,em{
+	font-style: normal;
+}
+b,strong{
+	font-weight: normal;
+}
+
+
+/* 公共样式*/
+.center{
+	width: 1002px;
+	margin: 0 auto;
+}
+.float-l{
+	float: left;
+}
+.float-r{
+	float: right;
+}
+
+/*.test{
+	width: 100px;
+	height: 100px;
+	background: blueviolet;
+}*/
+
+
+/************ 1、头部************/
+#header{
+	background: blue;
+}
+
+#header .top{
+	/*height: 35px;*/
+	background: #e4e4e4;
+}
+#header .top-content{
+	height: 35px;
+	/*width: 1004px;*/
+	/*background: red;*/
+	/*margin: 0 auto;*/
+}
+#header .top-content .section1{
+	width: 400px;
+	height: 35px;
+	/*background: gray;*/
+	/*float: left;*/
+}
+#header .top-content .section1 i{
+	padding: 0 8px;
+	background: url(../img/01-line.png) no-repeat right center;
+}
+#header .top-content .section1 a{
+	color: #69696b;
+	line-height: 35px;
+}
+
+#header .top-content .section2{
+	width: 386px;
+	height: 35px;
+	/*background: yellowgreen;*/
+	/*float: right;*/
+}
+#header .top-content .section2 .view1{
+	width: 194px;
+	height: 35px;
+	/*background: red;*/
+}
+#header .top-content .section2 .view1 a{
+	line-height: 35px;
+	color: #69696B;
+	margin-left: 16px;
+	font-size: 12px;
+}
+#header .top-content .section2 .view2{
+	width: 171px;
+	height: 25px;
+	/*background: blue;*/
+	padding-top: 10px;
+}
+#header .top-content .section2 .view2 .text{
+	width: 140px;
+	height: 20px;
+	border: 0;
+}
+#header .top-content .section2 .view2 .bt{
+	width: 30px;
+	height: 20px;
+	border: 0;
+	background: url(../img/02-search.png) no-repeat right center;
+}
+
+
+#header .logo{
+	background: white;
+}
+#header .logo-content{
+	height: 100px;
+	/*width: 1004px;*/
+	background: purple;
+	/*margin: 0 auto;*/
+	background: url(../img/04-bg.png) no-repeat right top;
+}
+#header .logo-content a{
+	margin-top: 15px;
+	float: left;
+}
+
+#header .nav{
+	background: red;
+}
+#header .nav-content{
+	/*width: 1004px;*/
+	height: 45px;
+	/*background: gray;*/
+	/*margin: 0 auto;*/
+}
+#header .nav-content ul{
+	padding-left: 8px;
+}
+#header .nav-content li{
+	float: left;
+}
+#header .nav-content a{
+	float: left;
+	padding: 0 19px;
+	height: 45px;
+	line-height: 45px;
+	color: white;
+	font-size: 16px;
+}
+#header .nav-content a:hover{
+	background: deepskyblue;
+}
+
+
+/************ 2、主体内容************/
+#main{
+	
+}
+#main .banner{
+	background: #e6e6e6;
+}
+#main .banner-content{
+	height: 328px;
+	background: gray;
+}
+#main .banner-content .view1{
+	width: 669px;
+	height: 329px;
+	background: url(../img/05-bg.png);
+}
+#main .banner-content .view2{
+	/*width: 333px;*/
+	width: 253px;
+	/*height: 329px;*/
+	height: 317px;
+	background: #eeeeee;
+	padding: 10px 40px 0;
+	border-bottom: 2px solid red;
+}
+#main .banner-content .view2 ul li{
+	/*height: 55px;*/
+	height: 45px;
+	/*line-height: 55px;*/
+	padding-top: 11px;
+	/*padding: 9px 0;*/
+	border-bottom: 1px dashed #86778a;
+}
+#main .banner-content .view2 .last{
+	border-bottom: 0;
+	padding-bottom: 0;
+	text-align: right;
+	/*background: blue;*/
+	height: 20px;
+	line-height: 20px;
+}
+#main .banner-content .view2 ul li i{
+	color: #86778A;
+}
+
+#main .news-content{
+	height: 589px;	
+}
+#main .news-content .content{
+	width: 732px;
+	height: 589px;
+	/*background: red;*/
+}
+#main .news-content .content .section h3{
+	padding-top: 50px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #dfdfdf;
+	margin-bottom: 18px;
+	font-size: 16px;
+}
+#main .news-content .content .section1,
+#main .news-content .content .section3{
+	width: 270px;
+	height: 250px;
+	/*background: gray;*/
+}
+#main .news-content .content .section2,
+#main .news-content .content .section4{
+	width: 425px;
+	height: 250px;
+	/*background: mediumpurple;*/
+}
+#main .news-content .content .section1 p{
+	line-height: 26px;
+	text-align: center;
+	/*background: purple;*/
+}
+#main .news-content .content .section2 dl{
+	margin-bottom: 12px;
+	height: 60px;
+}
+#main .news-content .content .section2 dt{
+	width: 60px;
+	height: 60px;
+	background: red;
+	color: white;
+	text-align: center;
+	margin-right: 15px;
+}
+#main .news-content .content .section2 dt p{
+	font-size: 21px;
+	margin-bottom: 12px;
+	font-weight: bold;
+}
+#main .news-content .content .section2 dt i{
+	font-size: 9px;
+}
+#main .news-content .content .section2 dd{
+	width: 334px;
+}
+#main .news-content .content .section2 dd .title{
+	line-height: 25px;
+	font-size: 12px;
+	color: black;
+	font-weight: bold;
+}
+#main .news-content .content .section2 dd .detail{
+	font-size: 12px;
+	color: #DFDFDF;
+	line-height: 18px;
+}
+#main .news-content .content .section li{
+	line-height: 24px;
+	height: 24px;
+	/*background: black;*/
+	width: 100%;
+	float: left;
+}
+#main .news-content .content .section li a{
+	float: left;
+}
+#main .news-content .content .section li i{
+	float: right;
+	color: #DFDFDF;
+}
+
+#main .news-content .slide{
+	width: 241px;
+	height: 589px;
+	/*background: blue;*/
+}
+#main .news-content .slide img{
+	padding: 40px 0;
+}
+#main .news-content .slide .view1{
+	height: 29px;
+	border-bottom: 1px solid gray;
+	margin-bottom: 32px;
+}
+#main .news-content .slide .view1 i{
+	width: 70px;
+	margin-right: 20px;
+	float: left;
+	height: 27px;
+}
+#main .news-content .slide .view1 i a{
+	font-size: 17px;
+}
+#main .news-content .slide .view1 .active{
+	border-bottom: 2px solid red;
+}
+#main .news-content .slide .view1 .active a{
+	color: red;
+}
+#main .news-content .slide form .user,
+#main .news-content .slide form .password{
+	width: 217px;
+	height: 28px;
+	margin-bottom: 4px;
+}
+#main .news-content .slide form .login{
+	width: 81px;
+	height: 24px;
+	margin-right: 50px;
+	
+}
+
+
+/************ 3、尾部************/
+#footer{
+	text-align: center;
+}
+
+#footer .view1{
+	height: 30px;
+	background: #ebebeb url(../img/09-bg.png) repeat-x left top;
+}
+#footer .view1 img{
+	display: inline-block;
+	padding-top: 5px;
+}
+
+#footer .view2{
+	height: 42px;
+	line-height: 42px;
+	background: #d4d4d4;
+}
+#footer .view2 a{
+	margin: 0 75px;
+}
+
+#footer .view3{
+	height: 49px;
+	line-height: 49px;
+	background: #302728;
+}
+#footer .view3 a{
+	color: white;
+}
+#footer .view3 i{
+	color: white;
+	margin: 0 8px;
+}
+
+#footer .view4{
+	background: #302728;
+	/*height: 83px;*/
+	height: 57px;
+	color: #949374;
+	padding-top: 26px;
+}
+#footer .view4 p{
+	height: 21px;
+}
